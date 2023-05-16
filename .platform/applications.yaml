@@ -1,0 +1,7 @@
+- name: app
+  type: nodejs:18
+  web:
+    commands:
+      start: "node index.js"
+  disk: 512
+  
