@@ -3,8 +3,7 @@
   hooks:
     build: |
       set -ex
-      npm run start
   web:
     commands:
-      start: "node index.js"
+      start: "npm run start"
   disk: 512
