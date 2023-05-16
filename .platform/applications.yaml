@@ -3,7 +3,9 @@
   hooks:
     build: |
       set -ex
+      npm run build
   web:
     commands:
-      start: "npm run start"
+      start: |
+        npm run start
   disk: 512
