@@ -1,7 +1,11 @@
 - name: app
   type: nodejs:18
+  hooks:
+    build: |
+      set -ex
+      npx prisma migrate deploy
+      npm run start
   web:
     commands:
       start: "node index.js"
   disk: 512
-  
