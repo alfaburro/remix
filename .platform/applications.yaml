@@ -3,6 +3,7 @@
   hooks:
     build: |
       set -ex
+      npm install
       npm run build
   web:
     commands:
