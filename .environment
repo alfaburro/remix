@@ -1,1 +1,1 @@
-SESSION_SECRET="super-duper-s3cret"
+export SESSION_SECRET="super-duper-s3cret"
