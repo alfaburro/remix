@@ -10,3 +10,5 @@
       start: |
         npm run start
   disk: 512
+  relationships:
+    pgdb: "postgresqldb:postgresql"
